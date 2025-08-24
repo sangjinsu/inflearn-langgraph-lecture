@@ -169,3 +169,28 @@ logs/
 *.temp
 tmp/
 temp/
+
+# ChromaDB and Vector Databases
+*.sqlite3
+chroma.sqlite3
+*.chroma
+*_collection/
+*.bin
+
+# Document Processing Output
+documents/
+*.processed.md
+*.processed.txt
+
+# Jupyter Notebook outputs (더 구체적으로)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Large Data Files
+*.pdf
+*.docx
+*.xlsx
+
+# AI Model Cache
+.cache/
+*_cache/
