@@ -194,3 +194,7 @@ documents/
 # AI Model Cache
 .cache/
 *_cache/
+
+
+# Google
+google/
